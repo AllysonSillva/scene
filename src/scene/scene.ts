@@ -6,6 +6,7 @@ import {
   Mesh,
   SphereGeometry,
   BoxGeometry,
+  ConeGeometry,
   MeshToonMaterial,
   PlaneGeometry,
   Color,
@@ -225,6 +226,8 @@ scene.add(cone)
 scene.add(boxGe6)
 scene.add(boxGe7)
 scene.add(boxGe8)
+
+
 
 const plane = new Mesh(
   new PlaneGeometry(10, 10, 10, 10),
