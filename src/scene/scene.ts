@@ -11,9 +11,9 @@ import {
   PlaneGeometry,
   Color,
 } from "three"
-import { renderer, updateRenderer } from "/src/core/renderer"
+import { renderer, updateRenderer } from "/src/core/renderer.ts"
 
-import { gui } from "/src/core/gui"
+import { gui } from "/src/core/gui.ts"
 
 export const scene = new Scene()
 
