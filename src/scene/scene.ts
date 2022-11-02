@@ -5,6 +5,7 @@ import {
   DirectionalLight,
   Mesh,
   SphereGeometry,
+  BoxGeometry,
   MeshToonMaterial,
   PlaneGeometry,
   Color,
