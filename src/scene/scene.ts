@@ -10,10 +10,12 @@ import {
   MeshToonMaterial,
   PlaneGeometry,
   Color,
+  ColorRepresentation,
 } from "three"
-//import { renderer, updateRenderer } from "/src/core/renderer"
 
-import { gui } from "/src/core/gui"
+import { gui } from "../core/gui"
+
+import { updateRenderer } from "../core/renderer"
 
 export const scene = new Scene()
 
