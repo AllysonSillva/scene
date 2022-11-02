@@ -11,7 +11,7 @@ import {
   PlaneGeometry,
   Color,
 } from "three"
-import { renderer, updateRenderer } from "/src/core/renderer.ts"
+import { updateRenderer } from "/src/core/renderer.ts"
 
 import { gui } from "/src/core/gui.ts"
 
@@ -207,7 +207,7 @@ sphereCtrls.addInput(sphere.position, "z", {
   max: 10,
   step: 0.1,
 })
-sphereCtrls.addInput(PARAMS, "color").on("change", (e) => {
+sphereCtrls.addInput(PARAMS, "color").on("change", (e: { value: ColorRepresentation | undefined }) => {
   sphere.material.color = new Color(e.value)
 })
 
