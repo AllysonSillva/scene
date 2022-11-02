@@ -11,7 +11,7 @@ import {
   PlaneGeometry,
   Color,
 } from "three"
-import { renderer, updateRenderer } from "/src/core/renderer"
+//import { renderer, updateRenderer } from "/src/core/renderer"
 
 import { gui } from "/src/core/gui"
 
